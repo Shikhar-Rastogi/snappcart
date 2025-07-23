@@ -1,0 +1,46 @@
+/* Wishlist / Product List Container */
+.product-list-page {
+  padding: 2rem 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Shared title style for pages */
+.page-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  text-align: center;
+  color: #222;
+}
+
+/* Message when wishlist is empty */
+.empty-message {
+  text-align: center;
+  font-size: 1.1rem;
+  color: #666;
+  margin-top: 3rem;
+}
+
+/* Grid system to layout cards */
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+/* Responsive tweak */
+@media (max-width: 650px) {
+  .page-title {
+    font-size: 1.5rem;
+  }
+
+  .empty-message {
+    font-size: 1rem;
+    padding: 1rem;
+  }
+
+  .products-grid {
+    gap: 1.2rem;
+  }
+}

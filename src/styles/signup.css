@@ -1,0 +1,125 @@
+/* signup.css */
+
+.signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 20px;
+  background-color: #fdfdff;
+}
+
+.signup-form {
+  background-color: white;
+  padding: 40px;
+  width: 100%;
+  max-width: 500px;
+  border: 1px solid #e7e7f1;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+  font-family: 'Arial', sans-serif;
+}
+
+.signup-form h2 {
+  font-size: 28px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.signup-form label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 15px;
+  font-weight: 500;
+  color: #222;
+}
+
+.signup-form label span {
+  color: red;
+  font-weight: bold;
+  margin-left: 4px;
+}
+
+.signup-form input {
+  width: 100%;
+  padding: 14px 16px;
+  margin-bottom: 24px;
+  border: 1px solid #dedcfb;
+  border-radius: 4px;
+  font-size: 14px;
+  transition: border 0.3s ease;
+}
+
+.signup-form input:focus {
+  outline: none;
+  border-color: #8b5cf6;
+}
+
+.checkbox-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: #555;
+}
+
+.checkbox-group input[type="checkbox"] {
+  margin-right: 8px;
+}
+
+.register-btn,
+.login-btn {
+  width: 100%;
+  padding: 14px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.register-btn {
+  background-color: white;
+  color: #000;
+  border: 1px solid #ccc;
+}
+
+.register-btn:hover {
+  background-color: #f4f4f4;
+}
+
+.or-divider {
+  text-align: center;
+  margin: 25px 0;
+  color: #aaa;
+  font-size: 13px;
+  position: relative;
+}
+
+.or-divider::before,
+.or-divider::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  width: 40%;
+  height: 1px;
+  background-color: #ddd;
+}
+
+.or-divider::before {
+  left: 0;
+}
+
+.or-divider::after {
+  right: 0;
+}
+
+.login-btn {
+  background-color: #1e1e1e;
+  color: white;
+  border: none;
+}
+
+.login-btn:hover {
+  background-color: #000;
+}

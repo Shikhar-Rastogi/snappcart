@@ -1,0 +1,93 @@
+.contact-page {
+  background-color: #f9f9f9;
+  padding: 2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #222;
+  line-height: 1.6;
+}
+
+/* Section Headings */
+.contact-info-block h3,
+.contact-extra-links h3,
+.contact-faq h3 {
+  color: #080707;
+  border-bottom: 2px solid #ff5a5f;
+  padding-bottom: 0.4rem;
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+}
+
+/* Lists */
+.contact-info-block ul,
+.contact-extra-links ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.contact-info-block li,
+.contact-extra-links li {
+  margin-bottom: 0.8rem;
+  font-size: 1rem;
+}
+
+/* Links */
+.contact-info-block a,
+.contact-extra-links a {
+  color: #007acc;
+  text-decoration: none;
+  transition: color 0.2s ease, text-decoration 0.2s ease;
+}
+
+.contact-info-block a:hover,
+.contact-extra-links a:hover {
+  text-decoration: underline;
+  color: #005b99;
+}
+
+/* FAQ Accordion */
+.contact-faq details {
+  margin-bottom: 1rem;
+  border: 1px solid #ddd;
+  padding: 0.8rem 1rem;
+  border-radius: 6px;
+  background-color: #fff;
+  transition: box-shadow 0.2s ease;
+}
+
+.contact-faq details:hover {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.contact-faq summary {
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  outline: none;
+  transition: color 0.2s ease;
+}
+
+.contact-faq summary:hover {
+  color: #ff5a5f;
+}
+
+/* Responsive Tweak */
+@media (max-width: 600px) {
+  .contact-page {
+    padding: 1rem;
+  }
+
+  .contact-info-block h3,
+  .contact-extra-links h3,
+  .contact-faq h3 {
+    font-size: 1.1rem;
+  }
+
+  .contact-info-block li,
+  .contact-extra-links li {
+    font-size: 0.95rem;
+  }
+
+  .contact-faq summary {
+    font-size: 0.95rem;
+  }
+}

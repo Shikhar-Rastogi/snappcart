@@ -1,0 +1,94 @@
+/* === SLIDER CONTAINER === */
+.slider-container {
+  position: relative;
+  overflow: hidden;
+}
+
+/* === SINGLE SLIDER === */
+.single-slider {
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  inset: 0;
+  transition: opacity 0.8s ease-in-out, visibility 0.8s ease-in-out;
+  display: flex;
+  align-items: center;
+}
+
+.single-slider.active {
+  opacity: 1;
+  visibility: visible;
+  position: relative;
+}
+
+/* === SLIDER HEIGHT === */
+.slider__height {
+  height: 100vh;
+}
+
+/* === SLIDER CONTENT CENTERING === */
+.slider__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* === HEADINGS & PARAGRAPH === */
+.slider__content h2 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.slider__content p {
+  font-size: 1.1rem;
+  margin-top: 1rem;
+  max-width: 500px;
+}
+
+
+.os-btn.os-btn-2 {
+  margin-top: 2rem;
+  padding: 16px 40px;
+  background: transparent;
+  color: #222;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: 2px solid #333;
+  border-radius: 0;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  font-size: 1.1rem;
+  transition: background 0.3s, color 0.3s;
+}
+
+.os-btn.os-btn-2:hover {
+  background-color: #333;
+  color: white;
+}
+
+/* === SLIDER DOTS === */
+.slider-dots {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 10px;
+}
+
+.slider-dots .dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: white;
+  opacity: 0.5;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.slider-dots .dot.active {
+  opacity: 1;
+  transform: scale(1.3);
+}

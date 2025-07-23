@@ -1,0 +1,23 @@
+.order-confirmed-container {
+  max-width: 600px;
+  margin: 5rem auto;
+  text-align: center;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 8px;
+  border: 1px solid #eaeaea;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.03);
+  font-family: "Segoe UI", sans-serif;
+}
+
+.order-confirmed-container h1 {
+  color: #2d2d2d;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.order-confirmed-container p {
+  font-size: 1.1rem;
+  margin: 0.8rem 0;
+  color: #444;
+}
