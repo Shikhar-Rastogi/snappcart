@@ -125,9 +125,7 @@
   background-color: #222;
 }
 
-/* -------------------- */
-/* Responsive Tweaks    */
-/* -------------------- */
+
 @media screen and (max-width: 768px) {
   .login-form {
     padding: 32px 24px;

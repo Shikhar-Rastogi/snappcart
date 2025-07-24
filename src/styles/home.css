@@ -1,9 +1,9 @@
-/* ====== Slider Section ====== */
+
 section:first-child {
   margin-bottom: 3rem;
 }
 
-/* ====== Welcome Section ====== */
+
 section .container h2 {
   font-size: 2.2rem;
   font-weight: 600;
@@ -22,7 +22,6 @@ section .container h2::after {
   border-radius: 10px;
 }
 
-/* ====== Product Section ====== */
 .bg-light {
   background-color: #f8f9fa !important;
 }
@@ -34,7 +33,6 @@ section.bg-light h2 {
   margin-bottom: 2rem;
 }
 
-/* ====== Utility Spacing ====== */
 .py-5 {
   padding-top: 3rem !important;
   padding-bottom: 3rem !important;
@@ -44,7 +42,7 @@ section.bg-light h2 {
   margin-bottom: 1.5rem !important;
 }
 
-/* ====== Media Queries ====== */
+
 @media (max-width: 768px) {
   section .container h2 {
     font-size: 1.6rem;

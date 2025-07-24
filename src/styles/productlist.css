@@ -1,4 +1,4 @@
-/* === SHOP WRAPPER === */
+
 .shop-container {
   max-width: 1400px;
   margin: 0 auto;
@@ -6,11 +6,10 @@
   background: #fff;
 }
 
-/* === MAIN SECTION TITLE === */
 .product-section-title {
   font-size: 2.2rem;
   font-weight: 700;
-  margin: 1.4rem auto 0.6rem auto; /* Reduced whitespace above/below */
+  margin: 1.4rem auto 0.6rem auto;
   color: #111;
   text-align: center;
   position: relative;
@@ -26,17 +25,16 @@
   border-radius: 2px;
 }
 
-/* === CATEGORY BLOCK === */
+
 .category-group {
-  margin-bottom: 3rem;         /* Less gap between groups */
+  margin-bottom: 3rem;       
   padding: 0 1rem;
 }
 
-/* === CATEGORY TITLE === */
 .category-title {
   font-size: 1.7rem;
   font-weight: 700;
-  margin: 1.4rem 0 0.7rem 0;   /* Less top/bottom space */
+  margin: 1.4rem 0 0.7rem 0;   
   text-transform: capitalize;
   color: #222;
   text-align: left;
@@ -63,12 +61,12 @@
   width: 100px;
 }
 
-/* === PRODUCT GRID === */
+
 .product-list {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 2rem;
-  padding: 0 0 2.2rem 0;       /* No excessive top padding */
+  padding: 0 0 2.2rem 0;       
   background-color: #f8f8f8;
   max-width: 1400px;
   margin: 0 auto;
@@ -76,7 +74,6 @@
   border-radius: 12px;
 }
 
-/* === PRODUCT CARD === */
 .product-card-combined {
   transition: box-shadow 0.3s ease;
   background: #fff;
@@ -92,7 +89,7 @@
   transform: translateY(-2px) scale(1.012);
 }
 
-/* === PRODUCT IMAGE SECTION === */
+
 .product-image-wrapper {
   width: 100%;
   aspect-ratio: 4/3;
@@ -115,7 +112,7 @@
   transform: scale(1.04);
 }
 
-/* === PRODUCT INFO === */
+
 .product-info {
   padding: 1rem 1.2rem 1.2rem 1.2rem;
   text-align: center;
@@ -147,7 +144,7 @@
   font-weight: 500;
 }
 
-/* === PRODUCT OPTIONS (dropdown/select) === */
+
 .product-options {
   text-align: left;
   margin-bottom: 0.4rem;
@@ -171,7 +168,7 @@
   margin-bottom: 0.7rem;
 }
 
-/* === ADD TO CART BUTTON === */
+
 .btn-add-to-cart {
   margin-top: auto;
   padding: 13px;
@@ -195,7 +192,6 @@
   background-color: #e6594d;
 }
 
-/* === RESPONSIVE DESIGN === */
 @media (max-width: 900px) {
   .product-list {
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));

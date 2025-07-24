@@ -1,5 +1,6 @@
 .order-confirmed-container {
   max-width: 600px;
+  width: 90%;
   margin: 5rem auto;
   text-align: center;
   padding: 2rem;
@@ -8,6 +9,7 @@
   border: 1px solid #eaeaea;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.03);
   font-family: "Segoe UI", sans-serif;
+  box-sizing: border-box;
 }
 
 .order-confirmed-container h1 {
@@ -20,4 +22,35 @@
   font-size: 1.1rem;
   margin: 0.8rem 0;
   color: #444;
+}
+
+
+@media (max-width: 768px) {
+  .order-confirmed-container {
+    margin: 3rem auto;
+    padding: 1.5rem;
+  }
+
+  .order-confirmed-container h1 {
+    font-size: 1.6rem;
+  }
+
+  .order-confirmed-container p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .order-confirmed-container {
+    margin: 2rem 1rem;
+    padding: 1.2rem;
+  }
+
+  .order-confirmed-container h1 {
+    font-size: 1.4rem;
+  }
+
+  .order-confirmed-container p {
+    font-size: 0.95rem;
+  }
 }
